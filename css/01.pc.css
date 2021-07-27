@@ -1,0 +1,33 @@
+.wrapper {width: auto; max-width: 900px; margin: auto; border: 10px solid red;}
+
+.img-wrap {display: flex; flex-wrap: wrap;}
+.img-wrap .imgs {width: 25%;}
+
+
+
+
+/* 
+0~575px      |  xs   | 스마트폰 세로
+575~767px    |  sm   | 스마트폰 가로
+768~991px    |  md   | 태블릿 세로
+992~1199px   |  lg   | 태블릿 가로
+1200~1399px  |  xl   | laptop (11인치 이하 노트북) //pc취급
+1400px~      |  xxl  | PC
+
+*/
+
+
+
+
+@media screen and (max-width:1199px) {
+  
+}
+@media screen and (max-width:991px) {
+  .img-wrap .imgs {width: 50%;}
+}
+@media screen and (max-width:767px) {
+  
+}
+@media screen and (max-width:575px) {
+  .img-wrap .imgs {width: 100%;}
+}
